@@ -1,0 +1,101 @@
+:root {
+  --background: black;
+  --font-color: white;
+  --border-color:blue;
+  --accent-color:red;
+  --accent-shadow:rgba(255, 0, 0,0.5);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--font-color);
+  border-color: var(--border-color);
+  -webkit-box-shadow: var(--accent-color);
+          box-shadow: var(--accent-color);
+  outline: var(--accent-shadow);
+}
+
+.gallary-3d {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 50px;
+  overflow-x: scroll;
+  overflow: scroll;
+  overflow-y: hidden;
+}
+
+.gallary-3d > *:nth-last-child(1) {
+  margin-right: 650px;
+}
+
+.gallary-3d > *:nth-child(1) {
+  margin-left: 41%;
+}
+
+.gallary-3d::-webkit-scrollbar {
+  width: 10px;
+}
+
+.showcase {
+  padding: 75px 0;
+  gap: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: var(--background);
+  color: var(--font-color);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skin-title {
+  text-align: center;
+  color: var(--font-color);
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.showcase-container .showcase-header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.showcase-container .showcase-header .west {
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  position: relative;
+  left: 13%;
+  top: 275px;
+}
+
+.showcase-container .showcase-header .east {
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  position: relative;
+  left: -13%;
+  top: 275px;
+}
+/*# sourceMappingURL=Gallary.css.map */

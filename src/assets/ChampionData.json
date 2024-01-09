@@ -1,0 +1,528 @@
+{
+    "Aatrox": {
+        "theme": {
+            "background": "black",
+            "font-color": "white",
+            "border-color": "red",
+            "accent-color": "red",
+            "accent-shadow": "rgba(255, 0, 0,0.5)"
+        },
+        "music": "cqE9xy0OMKY"
+    },
+    "Ahri": {
+        "theme": {
+            "background": "crimson",
+            "font-color": "white",
+            "border-color": "blue",
+            "accent-color": "blue",
+            "accent-shadow": "rgba(0, 0, 255,0.5)"
+        },
+        "music": "tLcziIisVKM"
+    },
+    "Akali": {
+        "theme": {
+            "background": "black",
+            "font-color": "green",
+            "border-color": "red",
+            "accent-color": "red",
+            "accent-shadow": "rgba(255, 0, 0,0.5)"
+        },
+        "music": "zoTIspKDls0"
+    },
+    "Akshan": {
+        "theme": {
+            "background": "lightblue",
+            "font-color": "yellow",
+            "border-color": "brown",
+            "accent-color": "brown",
+            "accent-shadow": "rgba(255, 0, 0,0.5)"
+        },
+        "music": "nudASZLNmV8"
+    },
+    "Alistar":{
+        "theme":{
+            "background": "beige",
+            "font-color": "purple",
+            "border-color": "blue",
+            "accent-color": "blue",
+            "accent-shadow": "rgba(32, 25, 46,0.5)"
+        }
+    },
+    "Amumu": {
+        "theme": {
+            "background": "sandybrown",
+            "font-color": "green",
+            "border-color": "lightblue",
+            "accent-color": "lightblue",
+            "accent-shadow": "rgba(0, 0, 255,0.5)"
+        },
+        "music": "0AvWV6Mk374"
+    },
+    "Anivia":{
+        "theme":{
+            "background": "rgb(201,242,245)",
+            "font-color": "rgb(25,19,50)",
+            "border-color": "lightblue",
+            "accent-color": "lightblue",
+            "accent-shadow": "rgba(0, 0, 255,0.5)"
+        }
+    },
+    "Annie": {
+        "theme": {
+            "background": "brown",
+            "font-color": "hotpink",
+            "border-color": "rgb(255,69,0)",
+            "accent-color": "rgb(255,69,0)",
+            "accent-shadow": "rgba(255,69,0,0.5)"
+        },
+        "music": "drACMJveGMA"
+    },
+    "Aphelios": {
+        "theme": {
+            "background": "rgb(106,140,200)",
+            "font-color": "rgb(53,52,82)",
+            "border-color": "blue",
+            "accent-color": "rgb(0, 0, 255)",
+            "accent-shadow": "rgba(0, 0, 255,0.5)"
+        },
+        "music": "NQIeAbFT4Kc"
+    },
+    "Ashe": {
+        "theme": {
+            "background": "rgb(65,105,225)",
+            "font-color": "rgb(171,227,255)",
+            "border-color": "rgb(37,42,120)",
+            "accent-color": "rgb(37,42,120)",
+            "accent-shadow": "rgba(37,42,120,0.5)"
+        },
+        "music": "3vylNCUu4eA"
+    },
+    "Aurelion Sol": {
+        "theme": {
+            "background": "darkblue",
+            "font-color": "lightblue",
+            "border-color": "rgb(209,151,124)",
+            "accent-color": "rgb(209,151,124)",
+            "accent-shadow": "rgba(209,151,124,0.5)"
+        },
+        "music": "ApCoJeatwac"
+    },
+    "Azir": {
+        "theme": {
+            "background": "sandybrown",
+            "font-color": "gold",
+            "border-color": "green",
+            "accent-color": "green",
+            "accent-shadow": "rgb(0, 255, 0,0.5)"
+        },
+        "music": "smNA_BYDODU"
+    },
+    "Bard": {
+        "theme": {
+            "background": "rgb(64,54,47)",
+            "font-color": "white",
+            "border-color": "blue",
+            "accent-color": "red",
+            "accent-shadow": "rgba(255, 0, 0,0.5)"
+        },
+        "music": "MWHmgob5FDA"
+    },
+    "Bel'Veth": {
+        "theme": {
+            "background": "rgb(25,19,44)",
+            "font-color": "rgb(150,102,160)",
+            "border-color": "rgb(202,64,230)",
+            "accent-color": "rgb(202,64,230)",
+            "accent-shadow": "rgba(202,64,230,0.5)"
+        },
+        "music": "Ie2ia4kyRx4"
+    },
+    "Blitzcrank":{
+        "theme":{
+            "background": "rgb(191,136,83)",
+            "font-color": "rgb(252,243,160)",
+            "border-color": "rgb(225,225,255)",
+            "accent-color": "rgb(225,225,255)",
+            "accent-shadow": "rgba(225,225,255,0.5)"
+        }
+    },
+    "Brand":{
+        "theme":{
+            "background": "rgb(38,35,35)",
+            "font-color": "rgb(203,85,49)",
+            "border-color": "rgb(82,74,62)",
+            "accent-color": "rgb(82,74,62)",
+            "accent-shadow": "rgba(82,74,62, 0.5)"
+        }
+    },
+    "Braum": {
+        "theme": {
+            "background": "rgb(65,105,225)",
+            "font-color": "rgb(171,227,255)",
+            "border-color": "rgb(37,42,120)",
+            "accent-color": "rgb(37,42,120)",
+            "accent-shadow": "rgba(37,42,120,0.5)"
+        },
+        "music": "F8cPDpXnQa0"
+    },
+    "Caitlyn": {
+        "theme": {
+            "background": "rgb(51,0,94)",
+            "font-color": "white",
+            "border-color": "rgb(0,79,255)",
+            "accent-color": "rgb(0,79,255)",
+            "accent-shadow": "rgba(0,79,255,0.5)"
+        },
+        "music": "itK7gvvxxDs"
+    },
+    "Camille": {
+        "theme": {
+            "background": "black",
+            "font-color": "white",
+            "border-color": "blue",
+            "accent-color": "red",
+            "accent-shadow": "rgba(255, 0, 0,0.5)"
+        },
+        "music": "0GJNJ2fsFno"
+    },
+    "Cho'Gath": {
+        "theme":{
+            "background": "rgb(25,19,44)",
+            "font-color": "rgb(202,64,230)",
+            "border-color": "rgb(150,102,160)",
+            "accent-color": "rgb(150,102,160)",
+            "accent-shadow": "rgba(150,102,160,0.5)"
+        },
+        "music": "TKGeHMT6Ko4"
+    },
+    "Darius": {
+        "music": "GXU77gZnShI"
+    },
+    "Diana": {
+        "music": "myEKQkKdKtQ"
+    },
+    "Draven": {
+        "music": "H1xHayXetLU"
+    },
+    "Dr. Mundo": {
+        "music": "Iy1yS9ysT4A"
+    },
+    "Ekko": {
+        "music": "8_OSWJeVTg0"
+    },
+    "Elise": {
+        "music": "skD_I-SHk30"
+    },
+    "Evelynn": {
+        "music": "h98vAgTQihs"
+    },
+    "Ezreal": {
+        "music": "NSM31U-4Eik"
+    },
+    "Fiddlesticks": {
+        "music": "tq9bB6QPAdA"
+    },
+    "Galio": {
+        "music": "KmvLl6WHvWM"
+    },
+    "Gangplank": {
+        "music": "shIMVeI5IPE"
+    },
+    "Garen": {
+        "music": "4sigUuZ2uIA"
+    },
+    "Gnar": {
+        "music": "Awa7fpGmtf0"
+    },
+    "Graves": {
+        "music": "13900aRG3hA"
+    },
+    "Gwen": {
+        "music": "ZJK0gG-WSUc"
+    },
+    "Hecarim": {
+        "music": "83s03_rSjRs"
+    },
+    "Irelia": {
+        "music": "6-_JxiLl0Xs"
+    },
+    "Illaoi": {
+        "music": "ZLhDBm2YtsU"
+    },
+    "Ivern": {
+        "music": "LBW-G57nmqA"
+    },
+    "Janna": {
+        "music": ""
+    },
+    "Jayce": {
+        "music": "OcIE8UQKXdQ"
+    },
+    "Jhin": {
+        "name": "Jhin",
+        "music": "NSQZqVsaKWY",
+        "text": "white",
+        "accent": "crimson"
+    },
+    "Jinx": {
+        "music": "JoHRzfKrdtk"
+    },
+    "Kai'Sa": {
+        "theme":{
+            "background": "rgb(25,19,44)",
+            "font-color": "rgb(202,64,230)",
+            "border-color": "rgb(150,102,160)",
+            "accent-color": "rgb(150,102,160)",
+            "accent-shadow": "rgba(150,102,160,0.5)"
+        },
+        "music": "3pP-Mp0cviU"
+    },
+    "Kalista": {
+        "music": "DFZJuBXufIM"
+    },
+    "Kassadin":{
+        "theme":{
+            "background": "rgb(25,19,44)",
+            "font-color": "rgb(202,64,230)",
+            "border-color": "rgb(150,102,160)",
+            "accent-color": "rgb(150,102,160)",
+            "accent-shadow": "rgba(150,102,160,0.5)"
+        }
+    },
+    "Kayle": {
+        "music": "nNP-xHhknvk"
+    },
+    "Kayn": {
+        "music": "x9yXC6naOPQ"
+    },
+    "Kha'Zix": {
+        "music": "27CRdopEhNM"
+    },
+    "Kindred": {
+        "music": "aB_DbCpFvHA"
+    },
+    "Kled": {
+        "music": "-P9zLHDUFEM"
+    },
+    "Lee Sin": {
+        "music": "EFXrDc1gBl8"
+    },
+    "Leona": {
+        "music": "iRvcu5oa1EU"
+    },
+    "Lillia": {
+        "music": "fXv9HUFXszI"
+    },
+    "Lissandra": {
+        "music": "gLuVXfZoOAk"
+    },
+    "Lucian": {
+        "music": ""
+    },
+    "Lulu": {
+        "music": "0zuUxjv2bb4"
+    },
+    "Lux": {
+        "music": "2gU_HpD0hWY"
+    },
+    "Malzahar":{
+        "theme":{
+            "background": "rgb(25,19,44)",
+            "font-color": "rgb(202,64,230)",
+            "border-color": "rgb(150,102,160)",
+            "accent-color": "rgb(150,102,160)",
+            "accent-shadow": "rgba(150,102,160,0.5)"
+        }
+    },
+    "Master Yi": {
+        "music": "YjrL3WjaSN0"
+    },
+    "Miss Fortune": {
+        "music": "vdNHYCUjDCk"
+    },
+    "Mordekaiser": {
+        "music": "_-ru3nPuSn8"
+    },
+    "Morgana": {
+        "music": "nNP-xHhknvk"
+    },
+    "Nami": {
+        "music": "WN5OA1Qv1N4"
+    },
+    "Nasus": {
+        "music": "LHWVpb5lQ0Y"
+    },
+    "Neeko": {
+        "music": "3rKhj0N_eaU"
+    },
+    "Nilah": {
+        "music": "xiCXFXIFqGA"
+    },
+    "Nocturne": {
+        "music": "rgbKA01lSS8"
+    },
+    "Nunu & Willump": {
+        "music": "fY_PTerocRI"
+    },
+    "Orianna": {
+        "music": "Nc7ul2Pf1hw"
+    },
+    "Ornn": {
+        "music": "dngwUyqXXt8"
+    },
+    "Pantheon": {
+        "name": "Pantheon",
+        "music": "9Zub8agQjrw"
+    },
+    "Poppy": {
+        "music": "yB1rg7cAI1M"
+    },
+    "Pyke": {
+        "music": "cHRvLl8hpqc"
+    },
+    "Qiyana": {
+        "music": "2CpCMaU-rpM"
+    },
+    "Quinn": {
+        "music": "gZ61j3SxQPA"
+    },
+    "Rakan": {
+        "music": "qBJs2uqdQUs"
+    },
+    "Rek'Sai": {
+        "music": "zXXdL4rHvww"
+    },
+    "Rell": {
+        "music": "ETaX9DZBSEk"
+    },
+    "Renata Glasc": {
+        "music": "3v7ZGvXmSUA"
+    },
+    "Rengar": {
+        "music": "0axsibJhIco"
+    },
+    "Riven": {
+        "music": "W2nNTmampaI"
+    },
+    "Rumble": {
+        "music": "G6JAQD0FmDg"
+    },
+    "Ryze": {
+        "music": "dsveCVCt5J4"
+    },
+    "Samira": {
+        "music": "Gm2S3MyzgFQ"
+    },
+    "Senna": {
+        "music": "7izlxCSb20Y"
+    },
+    "Sett": {
+        "music": "Fl_dVBZlfm8"
+    },
+    "Seraphine": {
+        "music": "O11UcwRctAE"
+    },
+    "Sion": {
+        "music": "vZ9nyZTvRwY"
+    },
+    "Sona": {
+        "music": "GOgFsAejQ0o"
+    },
+    "Swain": {
+        "music": "MOzVL9MY0fg"
+    },
+    "Sylas": {
+        "music": "HvvRvND2m8s"
+    },
+    "Syndra": {
+        "music": "k73RLHTjn8A"
+    },
+    "Tahm Kench": {
+        "music": "lr4EqywQGTQ"
+    },
+    "Taliyah": {
+        "music": "O7MwJ5WGA_A"
+    },
+    "Taric": {
+        "music": "HTj4BzF6HV4"
+    },
+    "Teemo": {
+        "music": "baYrNPrdSac"
+    },
+    "Thresh": {
+        "music": "IAIan0h85Xg"
+    },
+    "Tristana": {
+        "music": "EiobsNAKqHU"
+    },
+    "Twisted Fate": {
+        "music": "13900aRG3hA"
+    },
+    "Udyr": {
+        "music": "DGT20ihvGDU"
+    },
+    "Urgot": {
+        "music": "2rpfHB1LU80"
+    },
+    "Varus": {
+        "music": "J4ZE-lFqf4w"
+    },
+    "Vel'Koz": {
+        "theme":{
+            "background": "rgb(25,19,44)",
+            "font-color": "rgb(202,64,230)",
+            "border-color": "rgb(150,102,160)",
+            "accent-color": "rgb(150,102,160)",
+            "accent-shadow": "rgba(150,102,160,0.5)"
+        },
+        "music": "s7PafA8mrmI"
+    },
+    "Vex": {
+        "music": "z1QrEf8Ti_0"
+    },
+    "Vi": {
+        "music": "18yK0G9hHts"
+    },
+    "Viego": {
+        "music": "TCQ9MEZL1Y4"
+    },
+    "Volibear": {
+        "music": "wOJAErCvVhs"
+    },
+    "Warwick": {
+        "music": "RGssFVA3auQ"
+    },
+    "Xayah": {
+        "music": "qBJs2uqdQUs"
+    },
+    "Xin Zhao": {
+        "music": "CD_S0P1o9-M"
+    },
+    "Yasuo": {
+        "music": "jfgKdOlO_E4"
+    },
+    "Yone": {
+        "music": "6FlWvjg95sc"
+    },
+    "Zac": {
+        "music": "AW2JL512dXs"
+    },
+    "Zed": {
+        "music": "8kr6J2I-0qk"
+    },
+    "Zeri": {
+        "music": "jDXCgs5SRfw"
+    },
+    "Zoe": {
+        "music": "9FrbQrM2I-g"
+    },
+    "Yorick": {
+        "music": "Lv85e8JgR3g"
+    },
+    "Yuumi": {
+        "music": "T1jXFSj4pTM"
+    },
+    "Zyra": {
+        "music": "B91NcKEQAMU"
+    }
+}

@@ -1,0 +1,23 @@
+:root{
+    --background: black;
+    --font-color: white;
+    --border-color:blue;
+    --accent-color:red;
+    --accent-shadow:rgba(255, 0, 0,0.5);
+}
+
+
+$background: black;
+$font-color:white;
+$border-color:blue;
+$accent-color:red;
+$accent-shadow:rgba(255, 0, 0,0.5);
+
+
+body{
+    background-color: var(--background);
+    color:var(--font-color);
+    border-color: var(--border-color);
+    box-shadow: var(--accent-color);
+    outline: var(--accent-shadow);
+}

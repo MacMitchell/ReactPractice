@@ -1,0 +1,45 @@
+@use './overall.scss';
+@import './Theme.scss';
+.champion-pic-container {
+    width: 120px;
+    height: 120px;
+    box-shadow: 2px 2px 2px 2px var(--accent-color);//$accent-color;
+    cursor: pointer;
+    margin:1px;
+
+    &:hover {
+        position: relative;
+        top: 1px;
+        left: 1px;
+        box-shadow: 1px 1px 1px 1px var(--accent-color);//$accent-color;
+    }
+}
+
+.selection-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 50px 250px;
+}
+
+.champion-icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+
+    p {
+        font-family: Fantasy;
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        margin: 10px 0 0 0;
+        width: 120px;
+        overflow: hidden;
+    }
+}
+
+.champion-body{
+    background-color: var(--background);//$background;
+}

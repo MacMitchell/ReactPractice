@@ -1,0 +1,121 @@
+@import './Theme.scss';
+@mixin hover($name: 'south', $offset: translateY(-10px)) {
+  animation-name:#{$name};
+
+  @keyframes #{$name} {
+    0% {
+      transform: $offset;
+    }
+
+    50% {
+      transform: translate(0, 0);
+    }
+
+    100% {
+      transform: $offset
+    }
+  }
+
+
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 100%;
+  background-color: white;
+  box-shadow: 1px 0.5px 2px 0.5px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  @include hover();
+
+  &.west {
+    @include hover('west', translateX(-10px));
+
+    &>* {
+      transform: rotate(90deg);
+      transform-origin: center;
+    }
+  }
+
+  &.east {
+    @include hover('east', translateX(10px));
+
+    &>* {
+      transform: rotate(270deg);
+      transform-origin: center;
+    }
+  }
+
+  &.north {
+    @include hover('south', translateY(10px));
+
+    &>* {
+      transform: rotate(180deg);
+      transform-origin: center;
+    }
+  }
+
+  /*
+    removed because it makes the arrow seem clickable
+    &:hover{
+        filter: brightness(0.9);
+        animation-play-state: paused;
+    }
+    */
+}
+
+
+.attack-stat {
+  position: relative;
+  top: -170px;
+  left: 56px;
+}
+
+.magic-stat {
+  position: relative;
+  top: -145px;
+  left: -45px;
+}
+
+.difficulty-stat {
+  position: relative;
+  top: -39px;
+  left: 43px;
+}
+
+.defense-stat {
+  position: relative;
+  top: -107px;
+  left: 155px;
+}
+
+.Logo{
+  
+  /*
+  overflow: visible;
+  height: 0;
+  position:sticky;
+  right:5px;
+  bottom:5px;
+  top:5px;
+*/
+display:flex;
+flex-direction: row;
+justify-content: flex-end;
+height: 130px;
+background: transparent;
+position: sticky;
+bottom:0;
+left:90%;
+width: 130px;
+  svg{
+    fill: var(--font-color);//$font-color;
+    height: 130px;
+    position: sticky;
+    bottom: 0;
+    margin-bottom:130px ;
+  }
+
+}

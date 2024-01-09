@@ -1,0 +1,242 @@
+:root {
+  --background: black;
+  --font-color: white;
+  --border-color:blue;
+  --accent-color:red;
+  --accent-shadow:rgba(255, 0, 0,0.5);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--font-color);
+  border-color: var(--border-color);
+  -webkit-box-shadow: var(--accent-color);
+          box-shadow: var(--accent-color);
+  outline: var(--accent-shadow);
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 100%;
+  background-color: white;
+  -webkit-box-shadow: 1px 0.5px 2px 0.5px;
+          box-shadow: 1px 0.5px 2px 0.5px;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: south;
+          animation-name: south;
+  /*
+    removed because it makes the arrow seem clickable
+    &:hover{
+        filter: brightness(0.9);
+        animation-play-state: paused;
+    }
+    */
+}
+
+@-webkit-keyframes south {
+  0% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  50% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+}
+
+@keyframes south {
+  0% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  50% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+}
+
+.icon.west {
+  -webkit-animation-name: west;
+          animation-name: west;
+}
+
+@-webkit-keyframes west {
+  0% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+  50% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+}
+
+@keyframes west {
+  0% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+  50% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+}
+
+.icon.west > * {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+.icon.east {
+  -webkit-animation-name: east;
+          animation-name: east;
+}
+
+@-webkit-keyframes east {
+  0% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+  50% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+}
+
+@keyframes east {
+  0% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+  50% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+}
+
+.icon.east > * {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+.icon.north {
+  -webkit-animation-name: south;
+          animation-name: south;
+}
+
+@keyframes south {
+  0% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  50% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+}
+
+.icon.north > * {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+.attack-stat {
+  position: relative;
+  top: -170px;
+  left: 56px;
+}
+
+.magic-stat {
+  position: relative;
+  top: -145px;
+  left: -45px;
+}
+
+.difficulty-stat {
+  position: relative;
+  top: -39px;
+  left: 43px;
+}
+
+.defense-stat {
+  position: relative;
+  top: -107px;
+  left: 155px;
+}
+
+.Logo {
+  /*
+  overflow: visible;
+  height: 0;
+  position:sticky;
+  right:5px;
+  bottom:5px;
+  top:5px;
+*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 130px;
+  background: transparent;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  left: 90%;
+  width: 130px;
+}
+
+.Logo svg {
+  fill: var(--font-color);
+  height: 130px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  margin-bottom: 130px;
+}
+/*# sourceMappingURL=icons.css.map */
