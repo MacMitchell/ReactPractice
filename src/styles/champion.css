@@ -44,7 +44,7 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 50px;
-  margin: 50px 8%;
+  margin: 50px 10%;
 }
 
 .champion-icon-container {
