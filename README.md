@@ -4,3 +4,7 @@ I created this to practice and learn react. All the images are from the [League 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Building The Project
+- If you just downloaded the project, run the command `npm run build`
+- To run the project, run the command `npm run start`
+- If you want to see the storybook, run the command `npm run storybook`
